@@ -1,5 +1,19 @@
-@charset "utf-8"
+@charset "utf-8";
 
-body {
-  background: pink;
+.loading {
+  width: 32px;
+  height: 32px;
+  border-top: 8px solid red;
+  border-right: 8px solid blue;
+  border-bottom: 8px solid green;
+  border-left: 8px solid yellow;
+  border-radius: 50%;
+  animation: spin 800ms infinite linear;
+  /* animation-timing-function: liner; */
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
 }
