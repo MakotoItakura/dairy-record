@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+h1 {
+  font-size: 44px;
+  background: #EEEEEE;
+  border-left: 8px solid #FFA500;
+  line-height: 1.4;
+  padding-left: 16px;
+}
